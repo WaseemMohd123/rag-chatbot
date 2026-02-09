@@ -1,0 +1,217 @@
+/* ===== LIGHT/DARK THEME STYLES ===== */
+
+/* Light Theme - Professional clean white/gray background */
+html.light,
+html.light body {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%) !important;
+    color: #1e293b !important;
+}
+
+/* Light theme - main container gradient backgrounds */
+html.light .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #f8fafc, #f1f5f9, #e2e8f0) !important;
+}
+
+/* Light theme - Fix the main page background */
+html.light div[class*="from-gray-900"],
+html.light div[class*="from-[#0F172A]"] {
+    background: linear-gradient(to bottom right, #f8fafc, #f1f5f9, #e2e8f0) !important;
+}
+
+/* Light theme - solid backgrounds */
+html.light .bg-gray-900,
+html.light .dark\:bg-gray-900\/80,
+html.light .bg-gray-900\/80,
+html.light .bg-gray-900\/60 {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+html.light .bg-gray-800,
+html.light .dark\:bg-gray-800\/50,
+html.light .bg-gray-800\/50 {
+    background-color: rgba(248, 250, 252, 0.9) !important;
+}
+
+html.light .bg-gray-700,
+html.light .bg-gray-700\/50 {
+    background-color: rgba(241, 245, 249, 0.9) !important;
+}
+
+html.light .bg-white\/10,
+html.light .bg-white\/95,
+html.light .dark\:bg-gray-800\/50 {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+}
+
+/* DARK MODE - Ensure these override everything */
+html.dark .bg-white\/95,
+html:not(.light) .bg-white\/95 {
+    background-color: rgba(17, 24, 39, 0.8) !important;
+}
+
+html.dark .dark\:bg-gray-900\/80,
+html:not(.light) .dark\:bg-gray-900\/80 {
+    background-color: rgba(17, 24, 39, 0.8) !important;
+}
+
+html.dark .dark\:bg-gray-800\/50,
+html:not(.light) .dark\:bg-gray-800\/50 {
+    background-color: rgba(31, 41, 55, 0.5) !important;
+}
+
+html.dark .dark\:text-white,
+html:not(.light) .dark\:text-white {
+    color: #f8fafc !important;
+}
+
+html.dark .dark\:text-gray-400,
+html:not(.light) .dark\:text-gray-400 {
+    color: #9ca3af !important;
+}
+
+html.dark .dark\:text-gray-300,
+html:not(.light) .dark\:text-gray-300 {
+    color: #d1d5db !important;
+}
+
+html.dark .dark\:border-gray-700\/50,
+html:not(.light) .dark\:border-gray-700\/50 {
+    border-color: rgba(55, 65, 81, 0.5) !important;
+}
+
+html.dark .dark\:border-gray-600,
+html:not(.light) .dark\:border-gray-600 {
+    border-color: #4b5563 !important;
+}
+
+/* Light theme - Chat bubbles need better contrast */
+html.light .bg-purple-600 {
+    background-color: #7c3aed !important;
+}
+
+html.light .bg-gray-700 {
+    background-color: #f1f5f9 !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+/* Light theme - text colors - CRITICAL for readability */
+html.light .text-white,
+html.light .dark\:text-white {
+    color: #0f172a !important;
+}
+
+html.light .text-purple-200,
+html.light .text-purple-300,
+html.light .text-purple-400 {
+    color: #6d28d9 !important;
+}
+
+html.light .text-gray-400,
+html.light .dark\:text-gray-400 {
+    color: #64748b !important;
+}
+
+html.light .text-gray-300,
+html.light .dark\:text-gray-300 {
+    color: #475569 !important;
+}
+
+html.light .text-gray-500 {
+    color: #64748b !important;
+}
+
+html.light .text-gray-600,
+html.light .dark\:text-gray-600 {
+    color: #475569 !important;
+}
+
+/* Light theme - Fix header */
+html.light .bg-gray-900\/95,
+html.light .bg-gray-900\/80 {
+    background-color: rgba(255, 255, 255, 0.98) !important;
+    border-bottom-color: #e2e8f0 !important;
+}
+
+/* Light theme - borders */
+html.light .border-gray-700,
+html.light .border-gray-700\/50,
+html.light .border-gray-700\/40,
+html.light .dark\:border-gray-700\/50 {
+    border-color: #e2e8f0 !important;
+}
+
+html.light .border-gray-600,
+html.light .dark\:border-gray-600 {
+    border-color: #cbd5e1 !important;
+}
+
+html.light .border-white\/20 {
+    border-color: rgba(203, 213, 225, 0.5) !important;
+}
+
+/* Light theme - buttons */
+html.light .hover\:bg-gray-700:hover,
+html.light .hover\:bg-gray-600:hover {
+    background-color: #e2e8f0 !important;
+}
+
+html.light .hover\:bg-white\/20:hover {
+    background-color: rgba(226, 232, 240, 0.5) !important;
+}
+
+/* Light theme - purple floating particles should be more visible */
+html.light .bg-purple-500\/20 {
+    background-color: rgba(168, 85, 247, 0.15) !important;
+}
+
+html.light .bg-pink-500\/20 {
+    background-color: rgba(236, 72, 153, 0.15) !important;
+}
+
+html.light .bg-blue-500\/10 {
+    background-color: rgba(59, 130, 246, 0.1) !important;
+}
+
+/* Dark Theme (default) - Explicit styles */
+html,
+html.dark,
+html.dark body {
+    background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%) !important;
+    color: #f8fafc !important;
+}
+
+/* Dark mode - ensure background gradients are dark */
+html.dark div[class*="from-gray-900"],
+html.dark div[class*="via-purple-900"],
+html:not(.light) div[class*="from-gray-900"],
+html:not(.light) div[class*="via-purple-900"] {
+    background: linear-gradient(to bottom right, #0f172a, #581c87, #0f172a) !important;
+}
+
+/* Smooth transitions for theme changes */
+html,
+html *,
+body,
+body * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease !important;
+}
+
+/* Override specific elements that might resist theme changes */
+html.light input,
+html.light textarea {
+    background-color: #f8fafc !important;
+    color: #0f172a !important;
+    border-color: #cbd5e1 !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+html.dark input,
+html.dark textarea {
+    background-color: rgba(15, 23, 42, 0.5) !important;
+    color: #f8fafc !important;
+    border-color: #475569 !important;
+}
