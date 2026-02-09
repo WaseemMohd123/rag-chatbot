@@ -77,17 +77,6 @@ npm run dev
 - Backend API: http://localhost:8000
 - API Docs: http://localhost:8000/docs
 
-## 📸 Screenshots
-
-### Chat Interface
-![Chat Interface](./screenshots/chat.png)
-
-### Document Upload
-![Upload](./screenshots/upload.png)
-
-### Chat History
-![History](./screenshots/history.png)
-
 ## 🌐 Deployment
 
 See [deployment_guide.md](./deployment_guide.md) for detailed deployment instructions.
@@ -134,8 +123,8 @@ This project is licensed under the MIT License.
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- GitHub: [@WaseemMohd123](https://github.com/WaseemMohd123)
+- LinkedIn: [waslinked](https://linkedin.com/in/waslinked)
 
 ## 🙏 Acknowledgments
 
